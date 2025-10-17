@@ -25,7 +25,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="40sp"
             android:text="Bike Store"
             android:textColor="#FF9800"
             android:textSize="30sp"
@@ -118,7 +119,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20sp"
             android:layout_marginRight="10sp"
+            android:layout_marginBottom="20sp"
             android:text="--------------  ou acessar com  --------------"
             android:textColor="#000"
             android:textSize="18sp"
@@ -136,6 +139,7 @@
                 android:id="@+id/imgFacebook"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_marginRight="20dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/facebook" />
 
