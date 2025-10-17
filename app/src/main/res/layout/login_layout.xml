@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1D1D2E"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -22,21 +21,49 @@
             android:scaleType="centerCrop"
             android:src="@drawable/logo" />
 
+        <TextView
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bike Store"
+            />
+
         <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="20sp"
             style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Insira seu e-mail"
-            app:hintTextColor="#fff"
+            app:endIconMode="clear_text"
             app:counterMaxLength="100"
             app:startIconDrawable="@drawable/baseline_email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtEmail"
-                android:textColor="#fff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginBottom="20sp"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insira sua senha"
+            app:endIconMode="password_toggle"
+            app:counterMaxLength="100"
+            app:startIconDrawable="@drawable/baseline_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
