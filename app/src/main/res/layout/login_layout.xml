@@ -39,12 +39,12 @@
             android:layout_marginTop="20sp"
             android:layout_marginBottom="20sp"
             android:hint="Insira seu e-mail"
-            app:counterMaxLength="100"
             app:endIconMode="clear_text"
             app:startIconDrawable="@drawable/baseline_email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtEmail"
+                android:maxLength="100"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress" />
@@ -56,12 +56,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5sp"
             android:hint="Insira sua senha"
-            app:counterMaxLength="12"
             app:endIconMode="password_toggle"
             app:startIconDrawable="@drawable/baseline_lock">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtSenha"
+                android:maxLength="12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
@@ -70,7 +70,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="25sp"
             android:gravity="end"
             android:orientation="horizontal">
 
