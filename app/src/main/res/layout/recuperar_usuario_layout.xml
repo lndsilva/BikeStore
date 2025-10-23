@@ -32,25 +32,114 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
-            android:layout_width="50dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="20sp"
-            android:layout_marginBottom="20sp"
-            android:textAlignment="center"
-            android:hint="0"
-            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtRS01"
-                android:maxLength="1"
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
-                android:textSize="20sp"
-                android:layout_height="60dp"
-                android:inputType="number" />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:hint="0"
+                android:textAlignment="center">
 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRS01"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:hint="0"
+                android:textAlignment="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRS01"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:hint="0"
+                android:textAlignment="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRS01"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:hint="0"
+                android:textAlignment="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRS01"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:hint="0"
+                android:textAlignment="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRS01"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:hint="0"
+                android:textAlignment="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRS01"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
 
 
         <LinearLayout
