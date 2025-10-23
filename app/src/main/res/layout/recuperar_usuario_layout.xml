@@ -34,38 +34,24 @@
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
             android:layout_marginTop="20sp"
             android:layout_marginBottom="20sp"
-            android:hint="@string/insira_seu_e_mail"
-            app:endIconMode="clear_text"
-            app:startIconDrawable="@drawable/baseline_email">
+            android:textAlignment="center"
+            android:hint="0"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtEmail"
-                android:maxLength="100"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress" />
+                android:id="@+id/txtRS01"
+                android:maxLength="1"
+                android:layout_width="50dp"
+                android:textSize="20sp"
+                android:layout_height="60dp"
+                android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5sp"
-            android:hint="@string/insira_sua_senha"
-            app:endIconMode="password_toggle"
-            app:startIconDrawable="@drawable/baseline_lock">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtSenha"
-                android:maxLength="12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword" />
-        </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
