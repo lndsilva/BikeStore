@@ -35,6 +35,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -42,6 +43,7 @@
                 android:layout_width="50dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="20sp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginBottom="20sp"
                 android:hint="0"
                 android:textAlignment="center">
@@ -59,6 +61,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
                 android:layout_height="80dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="20sp"
                 android:hint="0"
@@ -77,6 +80,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
                 android:layout_height="80dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="20sp"
                 android:hint="0"
@@ -95,6 +99,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
                 android:layout_height="80dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="20sp"
                 android:hint="0"
@@ -113,6 +118,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
                 android:layout_height="80dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="20sp"
                 android:hint="0"
@@ -131,6 +137,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
                 android:layout_height="80dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="20sp"
                 android:hint="0"
