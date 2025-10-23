@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20sp"
             android:layout_marginBottom="40sp"
-            android:text="Bike Store"
+            android:text="@string/bike_store"
             android:textColor="#FF9800"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
             android:layout_marginBottom="20sp"
-            android:hint="Insira seu e-mail"
+            android:hint="@string/insira_seu_e_mail"
             app:endIconMode="clear_text"
             app:startIconDrawable="@drawable/baseline_email">
 
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5sp"
-            android:hint="Insira sua senha"
+            android:hint="@string/insira_sua_senha"
             app:endIconMode="password_toggle"
             app:startIconDrawable="@drawable/baseline_lock">
 
@@ -78,8 +78,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginRight="10sp"
-                android:text="Esqueceu sua senha?"
+                android:layout_marginEnd="10sp"
+                android:text="@string/esqueceu_sua_senha"
                 android:textColor="#000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -88,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Clique aqui."
+                android:text="@string/clique_aqui"
                 android:textColor="#FF9800"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -99,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:backgroundTint="#FF9800"
-            android:text="Login"
+            android:text="@string/login"
             android:textAllCaps="true"
             android:textColor="#fff"
             app:cornerRadius="6dp" />
@@ -110,7 +110,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="20sp"
             android:backgroundTint="#673AB7"
-            android:text="Cadastrar"
+            android:text="@string/cadastrar"
             android:textAllCaps="true"
             android:textColor="#fff"
             app:cornerRadius="6dp" />
@@ -120,9 +120,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20sp"
-            android:layout_marginRight="10sp"
+            android:layout_marginEnd="10sp"
             android:layout_marginBottom="20sp"
-            android:text="--------------  ou acessar com  --------------"
+            android:text="@string/acessar"
             android:textColor="#000"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -139,7 +139,7 @@
                 android:id="@+id/imgFacebook"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/facebook" />
 

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1D1D2E"
+    android:background="@color/fundo"
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".SplashActivity">
@@ -20,11 +20,11 @@
         android:layout_margin="20sp"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="#FF9800"
+        android:textColor="@color/cor_fonte"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bike Store"
+        android:text="@string/bike_store"
         />
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"
