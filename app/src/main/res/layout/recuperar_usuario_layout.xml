@@ -54,6 +54,7 @@
                     android:maxLength="1"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
@@ -64,13 +65,14 @@
                 android:textAlignment="center">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtRS01"
+                    android:id="@+id/txtRS02"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
                     android:inputType="number"
                     android:maxLength="1"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
@@ -81,13 +83,14 @@
                 android:textAlignment="center">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtRS01"
+                    android:id="@+id/txtRS03"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
                     android:inputType="number"
                     android:maxLength="1"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
@@ -98,13 +101,14 @@
                 android:textAlignment="center">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtRS01"
+                    android:id="@+id/txtRS04"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
                     android:inputType="number"
                     android:maxLength="1"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
@@ -115,13 +119,14 @@
                 android:textAlignment="center">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtRS01"
+                    android:id="@+id/txtRS05"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
                     android:inputType="number"
                     android:maxLength="1"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="50dp"
@@ -132,7 +137,7 @@
                 android:textAlignment="center">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/txtRS01"
+                    android:id="@+id/txtRS06"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
                     android:inputType="number"
