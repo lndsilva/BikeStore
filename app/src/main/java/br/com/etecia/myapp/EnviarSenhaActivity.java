@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.google.android.material.button.MaterialButton;
 
 public class EnviarSenhaActivity extends AppCompatActivity {
-    MaterialButton btnEsqueciMinhaSenha;
+    MaterialButton btnEsqueciMinhaSenha, btnVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +27,20 @@ public class EnviarSenhaActivity extends AppCompatActivity {
         });
 
         btnEsqueciMinhaSenha = findViewById(R.id.btnEsqueciMinhaSenha);
+        btnVoltar = findViewById(R.id.btnVoltar);
 
         btnEsqueciMinhaSenha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),RecuperarUsuarioActivity.class));
+                finish();
+            }
+        });
+
+        btnVoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
                 finish();
             }
         });
