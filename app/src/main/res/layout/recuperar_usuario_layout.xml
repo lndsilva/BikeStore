@@ -17,6 +17,7 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnVoltar"
             style="@style/Widget.Material3.Button.OutlinedButton"
+            app:strokeColor="#FD9700"
             android:layout_width="130dp"
             android:layout_height="60dp"
             android:layout_marginTop="20sp"
