@@ -9,4 +9,5 @@
     <string name="cadastrar">Cadastrar</string>
     <string name="acessar">-------------- ou acessar com --------------</string>
     <string name="recuperar_senha">Recuperação de senha</string>
+    <string name="continuar">Continuar</string>
 </resources>

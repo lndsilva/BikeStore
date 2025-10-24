@@ -14,6 +14,19 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVoltar"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:text="Voltar"
+            android:textAllCaps="true"
+            android:textColor="#FD9700"
+            app:cornerRadius="6dp"
+            app:icon="@drawable/baseline_arrow_back" />
+
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -33,20 +46,22 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="10dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="50sp"
-                android:layout_height="60sp">
+                android:layout_height="70sp"
+                android:hint="0">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="50sp"
-                    android:layout_height="80sp"
-                    android:inputType="number" />
+                    android:layout_height="60sp"
+                    android:inputType="number"
+                    android:textAlignment="center" />
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -72,63 +87,17 @@
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnEntrar"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:backgroundTint="#FF9800"
-            android:text="@string/login"
-            android:textAllCaps="true"
-            android:textColor="#fff"
-            app:cornerRadius="6dp" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnCadastrar"
+            android:id="@+id/btnContinuar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20sp"
             android:backgroundTint="#673AB7"
-            android:text="@string/cadastrar"
+            android:text="@string/continuar"
             android:textAllCaps="true"
             android:textColor="#fff"
             app:cornerRadius="6dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20sp"
-            android:layout_marginEnd="10sp"
-            android:layout_marginBottom="20sp"
-            android:text="@string/acessar"
-            android:textColor="#000"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:layout_marginBottom="20sp"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imgFacebook"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginEnd="20dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/facebook" />
-
-            <ImageView
-                android:id="@+id/imgGoogle"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/google" />
-
-
-        </LinearLayout>
 
     </LinearLayout>
+
 </LinearLayout>
