@@ -20,7 +20,7 @@
             android:layout_width="130dp"
             android:layout_height="60dp"
             android:layout_marginTop="20sp"
-            android:text="Voltar"
+            android:text="@string/voltar"
             android:textAllCaps="true"
             android:textColor="#FD9700"
             app:cornerRadius="6dp"
@@ -55,6 +55,62 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="50sp"
                 android:layout_height="70sp"
+                android:layout_margin="3dp"
+                android:hint="0">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="50sp"
+                    android:layout_height="60sp"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="50sp"
+                android:layout_height="70sp"
+                android:layout_margin="3dp"
+                android:hint="0">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="50sp"
+                    android:layout_height="60sp"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="50sp"
+                android:layout_height="70sp"
+                android:layout_margin="3dp"
+                android:hint="0">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="50sp"
+                    android:layout_height="60sp"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="50sp"
+                android:layout_height="70sp"
+                android:layout_margin="3dp"
+                android:hint="0">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="50sp"
+                    android:layout_height="60sp"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="50sp"
+                android:layout_height="70sp"
+                android:layout_margin="3dp"
+                android:hint="0">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="50sp"
+                    android:layout_height="60sp"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+            </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="50sp"
+                android:layout_height="70sp"
+                android:layout_margin="3dp"
                 android:hint="0">
 
                 <com.google.android.material.textfield.TextInputEditText
