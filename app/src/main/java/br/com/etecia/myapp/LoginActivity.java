@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
         txtRecuperarSenha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), RecuperarUsuarioActivity.class));
+                startActivity(new Intent(getApplicationContext(), EnviarSenhaActivity.class));
                 finish();
             }
         });
