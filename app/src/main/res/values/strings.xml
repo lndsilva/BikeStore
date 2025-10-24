@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Bike Store</string>
-    <string name="bike_store">Loja de bicicleta</string>
+    <string name="bike_store">Bike Store</string>
     <string name="insira_seu_e_mail">Insira seu e-mail</string>
     <string name="insira_sua_senha">Insira sua senha</string>
     <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
