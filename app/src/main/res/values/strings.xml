@@ -11,4 +11,5 @@
     <string name="recuperar_senha">Recuperação de senha</string>
     <string name="continuar">Continuar</string>
     <string name="voltar">Voltar</string>
+    <string name="texto_recupera_senha">Agora insira o código que te enviamos por e-mail e celular para criar uma nova senha</string>
 </resources>
