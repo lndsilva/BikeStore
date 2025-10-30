@@ -11,8 +11,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.button.MaterialButton;
+
 public class LoginActivity extends AppCompatActivity {
     TextView txtRecuperarSenha;
+    MaterialButton btnCadastrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +29,17 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         txtRecuperarSenha = findViewById(R.id.txtRecuperarSenha);
+        btnCadastrar = findViewById(R.id.btnCadastrar);
+
+        btnCadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),
+                        CadastrarUsuariosActivity.class));
+                finish();
+            }
+        });
+
 
         txtRecuperarSenha.setOnClickListener(new View.OnClickListener() {
             @Override
