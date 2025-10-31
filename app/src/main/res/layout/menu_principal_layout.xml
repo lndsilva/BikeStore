@@ -43,7 +43,7 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="160dp"
+                    android:layout_height="190dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/logo" />
 
@@ -51,6 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="5sp"
                     android:text="@string/bicicletas"
                     android:textAllCaps="true"
                     android:textColor="#222162"
@@ -78,7 +79,7 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="160dp"
+                    android:layout_height="190dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/logo" />
 
@@ -86,6 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="5sp"
                     android:text="@string/horarios"
                     android:textAllCaps="true"
                     android:textColor="#222162"
