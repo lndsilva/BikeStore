@@ -17,4 +17,8 @@
     <string name="bicicletas">Bicicletas</string>
     <string name="menu_principal">Menu Principal</string>
     <string name="horarios">Horários</string>
+    <string name="planos">Planos</string>
+    <string name="reservas">Reservas</string>
+    <string name="listas">Listas</string>
+    <string name="sac">SAC</string>
 </resources>
