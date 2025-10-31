@@ -12,10 +12,13 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class LoginActivity extends AppCompatActivity {
     TextView txtRecuperarSenha;
-    MaterialButton btnCadastrar;
+    MaterialButton btnCadastrar, btnEntrar;
+
+    TextInputEditText txtEmail, txtSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,17 @@ public class LoginActivity extends AppCompatActivity {
 
         txtRecuperarSenha = findViewById(R.id.txtRecuperarSenha);
         btnCadastrar = findViewById(R.id.btnCadastrar);
+        btnEntrar = findViewById(R.id.btnEntrar);
+
+        txtEmail = findViewById(R.id.txtEmail);
+        txtSenha = findViewById(R.id.txtSenha);
+
+        btnEntrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
         btnCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,5 +62,10 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
+    public void validaUsuario(String email, String senha){
+        if (email.equals("etecia@etecia.com.br") && senha.equals("etecia")){
+
+        }
     }
 }
