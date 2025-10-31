@@ -45,7 +45,14 @@ public class LoginActivity extends AppCompatActivity {
                 String email = txtEmail.getText().toString();
                 String senha = txtSenha.getText().toString();
 
-                validaUsuario(email, senha);
+                if (email.equals("etecia@etecia.com.br") && senha.equals("etecia")) {
+                    startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
+                    finish();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Usuário ou senha incorretos!!!", Toast.LENGTH_SHORT).show();
+                }
+
+
             }
         });
 
@@ -66,13 +73,5 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
-    }
-    public void validaUsuario(String email, String senha){
-        if (email.equals("etecia@etecia.com.br") && senha.equals("etecia")){
-            startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
-            finish();
-        }else{
-            Toast.makeText(getApplicationContext(),"Usuário ou senha incorretos!!!", Toast.LENGTH_SHORT).show();
-        }
     }
 }
