@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -41,7 +42,10 @@ public class LoginActivity extends AppCompatActivity {
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String email = txtEmail.getText().toString();
+                String senha = txtSenha.getText().toString();
 
+                validaUsuario(email, senha);
             }
         });
 
@@ -65,7 +69,10 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void validaUsuario(String email, String senha){
         if (email.equals("etecia@etecia.com.br") && senha.equals("etecia")){
-
+            startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
+            finish();
+        }else{
+            Toast.makeText(getApplicationContext(),"Usuário ou senha incorretos!!!", Toast.LENGTH_SHORT).show();
         }
     }
 }
