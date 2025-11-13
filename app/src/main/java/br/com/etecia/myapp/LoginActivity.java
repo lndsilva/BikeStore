@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
                 String email = txtEmail.getText().toString();
                 String senha = txtSenha.getText().toString();
 
-                if (email.equals("etecia@etecia.com.br") && senha.equals("etecia")) {
+                if (email.equals("etecia") && senha.equals("etecia")) {
                     startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
                     finish();
                 } else {
