@@ -23,6 +23,10 @@
         app:strokeWidth="2sp" />
 
     <com.google.android.material.tabs.TabLayout
+        app:tabGravity="fill"
+        app:tabInlineLabel="false"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicatorAnimationMode="elastic"
         android:id="@+id/tabLayoutBicicletas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,21 +36,25 @@
         app:tabTextColor="#FD9700">
 
         <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/bike_urbana_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Urbana" />
 
         <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/bike_speed_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Speed" />
 
         <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/bike_gravel_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gravel" />
 
         <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/bike_trail_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Trail" />
