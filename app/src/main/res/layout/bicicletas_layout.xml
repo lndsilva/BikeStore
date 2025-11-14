@@ -23,40 +23,40 @@
         app:strokeWidth="2sp" />
 
     <com.google.android.material.tabs.TabLayout
-        app:tabGravity="fill"
-        app:tabInlineLabel="false"
-        app:tabIndicatorHeight="2dp"
-        app:tabIndicatorAnimationMode="elastic"
         android:id="@+id/tabLayoutBicicletas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnVoltar"
+        app:tabGravity="fill"
+        app:tabIndicatorAnimationMode="elastic"
         app:tabIndicatorColor="#925900"
+        app:tabIndicatorHeight="2dp"
+        app:tabInlineLabel="false"
         app:tabMode="fixed"
         app:tabTextColor="#FD9700">
 
         <com.google.android.material.tabs.TabItem
-            android:icon="@drawable/bike_urbana_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:icon="@drawable/bike_urbana_icon"
             android:text="Urbana" />
 
         <com.google.android.material.tabs.TabItem
-            android:icon="@drawable/bike_speed_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:icon="@drawable/bike_speed_icon"
             android:text="Speed" />
 
         <com.google.android.material.tabs.TabItem
-            android:icon="@drawable/bike_gravel_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:icon="@drawable/bike_gravel_icon"
             android:text="Gravel" />
 
         <com.google.android.material.tabs.TabItem
-            android:icon="@drawable/bike_trail_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:icon="@drawable/bike_trail_icon"
             android:text="Trail" />
     </com.google.android.material.tabs.TabLayout>
 
@@ -65,7 +65,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/tabLayoutBicicletas"
-        android:background="#009688" />
-
-
+        android:background="#FFC107"/>
 </RelativeLayout>
