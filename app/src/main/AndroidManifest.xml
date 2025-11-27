@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".ListaBicicletasActivity"
+            android:exported="false" />
+        <activity
             android:name=".EnviarSenhaActivity"
             android:exported="false" />
         <activity
@@ -57,9 +60,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
