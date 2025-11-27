@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lista bicicletas"
+        android:text="@string/lista_bicicletas"
         android:textColor="#FF5722"
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
