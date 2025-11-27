@@ -2,7 +2,9 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/cardBikes"
     android:layout_width="200dp"
-    android:layout_height="300dp">
+    android:layout_height="300dp"
+    android:clickable="true"
+    android:focusable="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,10 +13,10 @@
 
         <ImageView
             android:id="@+id/imgCardBike"
-            android:layout_width="190dp"
+            android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_gravity="center_horizontal"
-            android:scaleType="centerCrop"
+            android:scaleType="centerInside"
             android:src="@drawable/logo" />
 
         <TextView
@@ -22,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Título Bike"
+            android:text="@string/t_tulo_bike"
             android:textColor="#F44336"
             android:textSize="30sp"
             android:textStyle="bold" />
