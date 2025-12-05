@@ -28,9 +28,16 @@ public class ListaBicicletasActivity extends AppCompatActivity {
         });
         //criando um array de dados
         lstBicicleta = new ArrayList<>();
-        lstBicicleta.add(
-                new Bicicleta()
-        );
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
+        lstBicicleta.add(new Bicicleta("Passeio",R.drawable.logo));
 
         //RecyclerView
         listaBikes = findViewById(R.id.listaBikes);
