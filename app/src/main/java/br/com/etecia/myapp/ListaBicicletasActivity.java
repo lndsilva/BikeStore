@@ -28,5 +28,10 @@ public class ListaBicicletasActivity extends AppCompatActivity {
         //RecyclerView
         listaBikes = findViewById(R.id.listaBikes);
 
+        BicicletaAdapter adapter = new BicicletaAdapter(lstBicicleta,ListaBicicletasActivity.this);
+
+        //Liga o adaptador a lista
+        listaBikes.setAdapter(adapter);
+
     }
 }
