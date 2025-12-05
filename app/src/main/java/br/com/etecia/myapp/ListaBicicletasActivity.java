@@ -8,7 +8,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.carousel.CarouselLayoutManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,9 +48,9 @@ public class ListaBicicletasActivity extends AppCompatActivity {
 
         BicicletaAdapter adapter = new BicicletaAdapter(lstBicicleta,ListaBicicletasActivity.this);
 
-        listaBikes.setLayoutManager(new
-                GridLayoutManager(getApplicationContext(),
-                2));
+        listaBikes.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
+
+        listaBikes.hasFixedSize();
 
         //Liga o adaptador a lista
         listaBikes.setAdapter(adapter);
