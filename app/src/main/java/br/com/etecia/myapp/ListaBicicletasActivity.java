@@ -29,7 +29,7 @@ public class ListaBicicletasActivity extends AppCompatActivity {
         //criando um array de dados
         lstBicicleta = new ArrayList<>();
         lstBicicleta.add(
-
+                new Bicicleta()
         );
 
         //RecyclerView

@@ -8,6 +8,11 @@ public class Bicicleta {
     //construtor
     public Bicicleta() {
     }
+
+    public Bicicleta(String titulo, int imgBicicleta) {
+        this.titulo = titulo;
+        this.imgBicicleta = imgBicicleta;
+    }
     //getters and setters
 
 
