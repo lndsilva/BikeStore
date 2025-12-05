@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListaBicicletasActivity extends AppCompatActivity {
@@ -25,6 +26,12 @@ public class ListaBicicletasActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        //criando um array de dados
+        lstBicicleta = new ArrayList<>();
+        lstBicicleta.add(
+
+        );
+
         //RecyclerView
         listaBikes = findViewById(R.id.listaBikes);
 
